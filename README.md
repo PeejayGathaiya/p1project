@@ -7,3 +7,4 @@ It also provides the user with the author of the quote.
 
 It uses fetch() to get data from API from 'https://api.quotable.io/random'.
 
+The website has been deployed to github pages and can be viewed on 'https://peejaygathaiya.github.io/'.
