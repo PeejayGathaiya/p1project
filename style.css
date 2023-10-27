@@ -1,0 +1,54 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1687150434638-1925e0d656ab?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    );
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+
+    /* width: 100%; */
+}
+
+#quote {
+    color: #121f5a88;
+}
+
+#author {
+    color: #232f63;
+}
+
+h1{
+    text-align: center;
+    color:rgb(66, 66, 93);
+    text-shadow: 0rlh;
+
+}
+.intro{
+    text-align: center;
+    color: rgb(66, 66, 93);
+}
+
+/* To make the display of the quote appear distinct, but still transulent enough for the background to be visible */
+#quoteDisplay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 500px;
+        padding: 40px;
+        box-shadow: 0 2px 8px rgba(255, 255, 255, 0.191);
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.695);
+        margin: 20px;
+        text-align: center;
+      }
+
+/* To style the line that separates the quote from the author */
+hr {
+        margin: 10px 0;
+        width: 60%;
+        border: 1px solid #222e6488;
+      }
